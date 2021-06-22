@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="24dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="24dp">
+
+
+    <ImageView
+        android:layout_width="354dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:src="@drawable/logotext" />
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Please enter your details"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="#99ffffff"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="#99ffffff"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/input_password1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="#99ffffff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/input_password2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="#99ffffff"
+        android:hint="Please enter password again"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp" />
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#44ffffff"
+        android:elevation="20dp"
+        android:padding="12dp"
+        android:text="@string/signup"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/link_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:background="#44ffffff"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:text="Already have an account? Log In!"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

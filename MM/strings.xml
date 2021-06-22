@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie Mate</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signupnow">Don"'"t have an account? Sign up!</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="CONSUMER_KEY">0mzpn9IutjIctwpgEmEwNiJHP</string>
+    <string name="CONSUMER_SECRET">uvwM0wvJqUQcoNHLQvy9BetC207XtCVeyPwOC4rDwPz1lZXGO4</string>
+
+    <string name="player_error">Error Initializing Youtube Player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+</resources>
