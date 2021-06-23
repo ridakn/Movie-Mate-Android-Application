@@ -1,4 +1,4 @@
-# Movie-Mate-Android-Application
+# Movie Mate Android Application
 
 By Xiaopu Cheng, Rida Khan, Rajas Purohit
 
